@@ -1,6 +1,49 @@
+# Vue.js LocalStorage Notes App with Theme Toggle
 
-HYP3UE T1: Aufgabe 2
+## Overview  
+**Vue.js LocalStorage Notes App with Theme Toggle** is a client-side note-taking application built with **Vue.js**.  
+It allows users to create timestamped notes, store them in the browser's **localStorage**, and manage them with a responsive interface.  
+A built-in **theme toggle** feature lets users switch between different visual styles instantly.
 
-Dennis Hanrieder
+This project showcases component-driven UI development and persistent client-side storage without any backend.
 
-s2210238022
+## Why this project exists  
+This project was built to:  
+- Demonstrate **Vue.js reactivity** and event handling.  
+- Show how to store and manage data with **localStorage**.  
+- Implement a **dynamic theme-switching** feature in a small app.  
+
+## Features  
+- **Create Notes** — Add text entries with timestamps.  
+- **Delete Notes** — Remove individual notes easily.  
+- **Clear All** — Wipe the notes list in one click.  
+- **Theme Toggle** — Switch between visual styles dynamically.  
+- **Persistent Storage** — Notes remain available after page reloads.
+
+## Technologies used  
+- **Frontend:** Vue.js (CDN build)  
+- **Styling:** CSS3 (multiple themes)  
+- **Storage:** Browser `localStorage` API  
+- **No Backend Required** — Works fully client-side.
+
+## How to run the project  
+```bash
+# 1) Clone or download the repository
+git clone <https://github.com/DennisNHanrieder/hyp3u2.git>
+
+# 2) Open index.html in your browser
+```
+
+## Dependencies & requirements  
+- Modern web browser with JavaScript enabled  
+- No server required — runs locally
+
+## How to contribute  
+1. Fork the repository and create a new branch.  
+2. Add enhancements like search, categories, or export to file.  
+3. Submit a pull request with a clear description of your changes.
+
+## What powers the core functionality?  
+- **Vue.js** — Manages reactive state and DOM updates.  
+- **localStorage API** — Saves and loads notes from browser storage.  
+- **CSS** — Defines multiple themes and handles visual transitions.
